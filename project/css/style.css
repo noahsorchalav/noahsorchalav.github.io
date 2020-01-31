@@ -12,8 +12,9 @@ footer
     font-family:'Noto Sans TC', sans-serif;;
     background-color: rgb(127, 184, 0);
     margin:0 auto;
-    padding:9px;
-    border:11px solid rgb(255, 180, 0);}
+    padding:0 auto;
+    border:11px solid rgb(255, 180, 0);
+}
 
 header{
     background-color:#3a251e;
