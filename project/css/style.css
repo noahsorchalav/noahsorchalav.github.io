@@ -16,8 +16,8 @@ footer {
     font-family: 'Noto Sans TC', Arial, sans-serif;
     ;
     background-color: rgb(127, 184, 0);
-    margin: 0 auto;
-    padding: 0 auto;
+    margin: 0;
+    padding: 0;
     border: 11px solid rgb(255, 180, 0);
 }
 header .heading{
@@ -59,6 +59,7 @@ header {
 }
 
 header img {
+    width:120px;
     height: auto;
     border: 1px solid black;
     box-shadow: 0 0 40px rgb(246, 81, 29);
