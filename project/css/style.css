@@ -12,13 +12,89 @@ header,
 nav,
 main,
 footer {
-    width: 960px;
+    max-width: 960px;
     font-family: 'Noto Sans TC', Arial, sans-serif;
-    background-color: rgb(127, 184, 0);
+    background-color: rgba(16, 117, 38, 0.911);
     margin: 0 auto;
     border: 11px solid rgb(255, 180, 0);
 }
+.action {
+    background-color: rgba(240, 240, 240, 0.5);
+    margin: 1em 3em;
+    padding: 1em;
+    text-align: center;
+    grid-column: 1;
+    grid-row: 1 / 2;
+    z-index: 1;
+}
+.action button {
+    line-height: 2em;
+    width: 10em;
+    background-color: #e7c24f;
+    font-size: 1.2em;
+}
+.banner-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
+}
+    
+.banner-box img {
+    grid-column: 1 / -1;
+    grid-row: 1 / 1;
+
+}
+.home-grid img{
+    width: 100%;
+    border: 10px solid rgb(228, 228, 228);
+    box-shadow: 5px 5px 5px rgb(121, 121, 121);
+}
+
+.home-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-auto-rows: repeat (1fr, 6);
+        align-items: stretch;
+        position: sticky;
+        max-width: 800px;
+        position: relative;
+        grid-gap:40px;
+        left:40px;
+        padding:20px;
+      }
+.banner-box img { 
+    width:100%; 
+    height: auto;
+ }
+ .home-headline-1 {
+    grid-column: 1 / 4; 
+    grid-row: 1 / 2; 
+  }
+  .home-right-img{
+      grid-column:4 / 6;
+      grid-row: 1 / 3 ;
+  }
+  .home-paragraph-1{
+      grid-column: 2 / 4;
+      grid-row: 2 / 4;
+  }
+  .home-headline-2{
+    grid-column: 3 / 6;
+    grid-row: 4 / 5;
+  }
+  .home-left-img{
+      grid-column: 1 / 3;
+      grid-row: 4 / 6;
+  }
+  .home-paragraph-2{
+    grid-column: 4 / 6;
+    grid-row: 5 / 7;
+  }
+  .home-paragraph-3{
+    grid-column: 1 / 6;
+    grid-row: 7 / 8;
+    text-align: center;
+  }
 ul {
     list-style-type: none;
     overflow: hidden;
@@ -57,8 +133,9 @@ header img {
     width:120px;
     height: auto;
     border: 1px solid black;
-    box-shadow: 0 0 40px rgb(246, 81, 29);
+    box-shadow: 0 0 40px rgb(199, 59, 16);
     overflow: hidden;
+    background-color: rgb(255, 255, 255);
 
 }
 
@@ -82,19 +159,23 @@ section.heading{
 
 footer {
     color: white;
-    background-color: rgb(246, 81, 29);
+    background-color: rgb(161, 74, 47);
     border: 10px solid rgb(0, 0, 0);
+    text-align: right;
 }
 
-body h3 {
-    font-size: 2rem;
+body h2{
+    font-size: 2.5rem;
     color: rgb(56, 50, 50);
+    border-style: double none double;
+    padding: 10px;
+    font-family: 'IM Fell Great Primer SC', Arial, sans-serif;
 }
 
 body p {
     color: rgb(255, 255, 255);
-    border: 1px solid rgb(36, 91, 143);
-    background-color: rgb(40, 40, 167);
+    border: 1px solid rgb(36, 143, 59);
+    background-color: rgb(75, 116, 82);
     box-shadow: 0 0 150px rgb(255, 255, 255);
     padding: 1rem;
     margin: 1rem;
@@ -103,4 +184,10 @@ body p {
 div.social{
     text-shadow: 0 0 10px rgb(251, 255, 1);
     font-size: 2em;
+    padding:20px;
 }
+@media screen and (max-width: 550px) {
+    .home-grid {
+      display: block;
+    }
+  }
