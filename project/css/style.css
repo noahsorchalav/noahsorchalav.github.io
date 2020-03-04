@@ -105,7 +105,41 @@ footer {
     grid-row: 7 / 8;
     text-align: center;
 }
+strong {
+    color: rgb(0, 0, 0);
+    font-size: 1.1rem;
+    text-align: center;
+}
+.river-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: sticky;
+    max-width: 900px;
+    grid-gap: 40px;
+    padding: 20px;
+}
+.river-grid img{
+    width: 100%;
+    
 
+}
+.river-grid p{
+    background-color: white;
+    color: black;
+    border: none;
+}
+.river-1{
+    border: solid black;
+    background-color: white;
+}
+.river-2{
+    border: solid black;
+    background-color: white;
+}
+.river-3{
+    border: solid rgb(0, 0, 0);
+    background-color: white;
+}
 ul {
     list-style-type: none;
     overflow: hidden;
