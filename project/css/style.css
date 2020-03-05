@@ -105,11 +105,13 @@ footer {
     grid-row: 7 / 8;
     text-align: center;
 }
+
 strong {
     color: rgb(0, 0, 0);
     font-size: 1.1rem;
     text-align: center;
 }
+
 .river-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -118,28 +120,80 @@ strong {
     grid-gap: 40px;
     padding: 20px;
 }
-.river-grid img{
+
+.river-grid img {
     width: 100%;
-    
+
 
 }
-.river-grid p{
+
+.river-grid p {
     background-color: white;
     color: black;
     border: none;
 }
-.river-1{
+
+.river-1 {
     border: solid black;
     background-color: white;
 }
-.river-2{
+
+.river-2 {
     border: solid black;
     background-color: white;
 }
-.river-3{
+
+.river-3 {
     border: solid rgb(0, 0, 0);
     background-color: white;
 }
+.blog-grid{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+
+}
+
+div.current-blog {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(224, 213, 213);
+    border: solid black;
+    margin:20px;
+    grid-column: 1/3;
+
+}
+.current-blog img{
+    grid-column:2;
+    width: 90%;
+    margin: 15px;
+
+}
+.current-blog p {
+    grid-column: 1/3;
+    column-count: 2;
+    border: none;
+    background-color: inherit;
+    box-shadow: unset;
+    color: black;
+    text-emphasis: wrap;
+    position: inherit;
+}
+.current-blog h3{
+    font-family: 'IM Fell Great Primer SC', Arial, sans-serif;
+    font-size: 4rem;
+    height: 10px;
+}
+
+
+
+div.recent-blogs{
+    margin-right: none;
+    font-family: 'Noto Sans TC', Arial, sans-serif;
+    background-color: rgba(92, 200, 115, 0.911);
+    margin:20px;
+    border: 11px solid rgb(226, 199, 136);
+}
+
 ul {
     list-style-type: none;
     overflow: hidden;
