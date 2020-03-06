@@ -177,7 +177,6 @@ div.current-blog {
     background-color: inherit;
     box-shadow: unset;
     color: black;
-    text-emphasis: wrap;
     position: inherit;
 }
 .current-blog h3{
@@ -196,7 +195,7 @@ div.recent-blogs h2{
 
 
 div.recent-blogs{
-    margin-right: none;
+    margin-right: 0px;
     font-family: 'Noto Sans TC', Arial, sans-serif;
     background-color: rgba(92, 200, 115, 0.911);
     margin:20px;
