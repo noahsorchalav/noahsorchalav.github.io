@@ -179,10 +179,11 @@ div.current-blog {
     color: black;
     position: inherit;
 }
-.current-blog h3{
+.current-blog h2{
     font-family: 'IM Fell Great Primer SC', Arial, sans-serif;
     font-size: 4rem;
     height: 10px;
+    border: none;
 }
 div.recent-blogs h1{
     font-size:1.5em;
