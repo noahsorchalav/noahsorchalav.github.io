@@ -123,8 +123,6 @@ strong {
 
 .river-grid img {
     width: 100%;
-
-
 }
 
 .river-grid p {
@@ -136,16 +134,20 @@ strong {
 .river-1 {
     border: solid black;
     background-color: white;
+    grid-column: 1;
+
 }
 
 .river-2 {
     border: solid black;
     background-color: white;
+    grid-column: 2;
 }
 
 .river-3 {
     border: solid rgb(0, 0, 0);
     background-color: white;
+    grid-column: 3;
 }
 .blog-grid{
     display: grid;
@@ -182,6 +184,13 @@ div.current-blog {
     font-family: 'IM Fell Great Primer SC', Arial, sans-serif;
     font-size: 4rem;
     height: 10px;
+}
+div.recent-blogs h1{
+    font-size:1.5em;
+    padding: 10px;
+}
+div.recent-blogs h2{
+    border:none;
 }
 
 
@@ -286,6 +295,11 @@ div.social {
     text-shadow: 0 0 10px rgb(251, 255, 1);
     font-size: 2em;
     padding: 20px;
+}
+button#salmon,
+button#gray,
+button#grand{
+    background-color: rgb(179, 211, 148);
 }
 
 @media screen and (max-width: 550px) {
