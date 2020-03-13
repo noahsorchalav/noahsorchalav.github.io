@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=deivce-width, initial-scale=1.0">
+    <title>Form Fun</title>
+    <meta name="description" content="Basic elements of a form.">
+</head>
+
+<body>
+        <main>
+            <form action="thanks.html" method="get">
+                <label for="firstName">Please enter your first name:</label>
+                <input type="text" id="firstName" name="firstName" required size="40"
+                    placeholder="Enter your first Name">
+                <label for="zipCode">Please enter your zip code:</label>
+                <input type="text" id="zipCode" name="zipCode">
+                <label for="state">Please select your state:</label>
+                <select name="state" id="state">
+                    <option value="" disabled selected>Choose from this list</option>
+                    <option value="Alaska">Alaska</option>
+                    <option value="Nevada">Nevada</option>
+                    <option value="Idaho">Idaho</option>
+                </select>
+                <label for="comments">Any Comments?</label>
+                <textarea name="comments" id="comments"></textarea>
+                <button type="submit"></button>
+
+
+            </form>
+        </main>
+</body>
+
+</html>
