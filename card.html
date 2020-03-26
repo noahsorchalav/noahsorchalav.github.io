@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=deivce-width, initial-scale=1.0">
+    <title>Media Card</title>
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            font-family: sans-serif;
+        }
+
+        .card {
+            width: 320px;
+            box-shadow: 1px 1px 4px 1px #888;
+            border-radius: 3px;
+            background-color: white;
+        }
+        .container {
+            margin: 0 auto;
+            width: 95%;
+        }
+
+        p {
+            padding: .5rem;
+        }
+
+        span {
+            float: right;
+            font-size: 14px;
+            color:#777;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        footer {
+            padding: 10px;
+        }
+
+
+        button {
+            padding: 0.5rem;
+            border: 1px solid #888;
+            color: #777;
+            background-color: white;
+        }
+
+        .viewButton {
+            border-radius: 5px 0 0 5px;
+
+        }
+
+        .editButton {
+            border-left: none;
+            border-radius: 0 5px 5px 0;
+        }
+    </style>
+    <meta name="description" content="A basic Media Card.">
+</head>
+
+<body>
+    <article class="card">
+        <img src="https://picsum.photos/320/240" alt="Random Image">
+        <div class="container">
+            <p> This is a wider card with supporting text below as a natural lead-in to additional content. This content
+                is
+                a bit longer.</p>
+            <footer>
+                <button type="button" class="viewButton">View</button><button type="button"
+                    class="editButton">Edit</button>
+                <span>9 mins</span>
+            </footer>
+        </div>
+    </article>
+</body>
+
+</html>
