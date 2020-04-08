@@ -262,7 +262,7 @@ li a {
 li a:hover {
     background-color: rgb(10, 169, 218);
     color: white;
-    box-shadow: 0 0 -40px rgb(161, 161, 226);
+    box-shadow: 0 0 40px rgb(161, 161, 226);
 
 }
 
@@ -278,7 +278,7 @@ header img {
     width: 120px;
     height: auto;
     border: none;
-    box-shadow: 0 0 -40px rgb(240, 231, 217);
+    box-shadow: 0 0 40px rgb(240, 231, 217);
     overflow: hidden;
     background-color: rgb(240, 231, 217);
 
@@ -293,7 +293,7 @@ header h1 {
 div.motto {
     font-style: italic;
     font-size: 2rem;
-    font-weight: 20;
+    font-weight: bold;
     color: rgb(0, 0, 0);
     padding-left: 8rem;
     text-shadow: 0 0 30px rgb(248, 250, 116);
