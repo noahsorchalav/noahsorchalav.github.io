@@ -261,7 +261,7 @@ li a {
 
 li a:hover {
     background-color: rgb(10, 169, 218);
-    color: white;
+    color: rgb(61, 58, 80);
     box-shadow: 0 0 40px rgb(161, 161, 226);
 
 }
